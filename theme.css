@@ -1,0 +1,78 @@
+*{
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+body{
+  background-color: #efefef;
+}
+.Wrapper{
+  width: 1000px;
+}
+/*
+BANNER AND NAVIGATION
+*/
+#Banner{
+  background: lightgrey;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+}
+#Banner h1{
+  flex:1;
+}
+#NavigationBar{
+  flex:1;
+  background-color: grey;
+  text-align: right;
+  padding-top: 15;
+}
+#NavigationBar a{
+  margin-left: 20px;
+  bottom:0px;
+  background-color: white;
+  flex:1;
+}
+/*
+BOXES AND NEWS
+*/
+.Info{
+  background-color: blue;
+  height:1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#InfoBar{
+  box-sizing: border-box;
+  text-align: center;
+  flex-basis:10%;
+  width: 900px;
+  background-color: pink;
+}
+#InfoBar h2{
+  padding-top: 20px;
+}
+#NoticeBar h3{
+  padding: 15px;
+}
+#NoticeBar{
+  text-align: center;
+  flex-basis:5%;
+  width: 900px;
+  background-color: orange;
+}
+.flex-grid{
+  height: 20%;
+  width: 930px;
+  background-color: green;
+  display:flex;
+  flex-direction: row;
+  //justify-content: space-between;
+}
+.col-1{
+  width: 590px;
+  background: yellow;
+}
+.col{
+  flex-basis: 30%;
+  background: yellow;
+}
